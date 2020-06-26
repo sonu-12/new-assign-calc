@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+main{
+    max-width:550px ;
+    min-width: 300px;
+   box-sizing: border-box;
+   border: 20px solid rgb(211, 103, 32);
+   /* border-radius: 30px; */
+   height: 100vh;
+   margin-top: 0;
+   margin-bottom: 0;
+   background-image: linear-gradient(to right, rgb(18, 18, 19), rgb(73, 74, 77));
+margin: 0 auto;
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
+main h1{
+
+    color:   rgb(255, 255, 255) ;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+#inp{
+    margin-top: 20px;
+    width: 100%;
+    height: 140px;
+    
+}
+#inp input{
+    width: 100%;
+    height: 140px;
+    font-size: 28px;
+   
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px ;
+}
+
+#funcbtn{
+
+width: 20%;
+height: 60%;
+
+float: right;
+text-align: center;
+
+
+}
+#funcbtn button{
+    
+    width: 90%;
+    height: 15%;
+   
+display: flex;
+margin: 0 auto;
+margin-top: 20px;
+background-color: rgb(211, 103, 32);
+   
+   
+   align-items: center;
+   
+   cursor: pointer;
+
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgb(78, 77, 75);
+
+
+}
+
+#funcbtn2{
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    float: left;
+    
+}
+#funcbtn2 button{
+    
+    width: 25%;
+    height: 90%;
+   
+
+margin: 0 auto;
+
+background-color: rgb(211, 103, 32);
+   
+   
+   align-items: center;
+   
+   cursor: pointer;
+
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgb(78, 77, 75);
+
+
+}
+#funcbtn button h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+    
+}
+#funcbtn2 button h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+    
+}
+
+#numbtn{
+
+    width: 80%;
+    height: 42%;
+   
+    float: left;
+
+
+}
+
+#numbtn div{
+    width: 100%;
+    height: 20%;
+  
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#numbtn button{
+    
+    width: 25%;
+    height: 90%;
+   
+
+margin: 0 auto;
+margin-top: 5px;
+background-color: rgb(250, 244, 244);
+   
+   
+   align-items: center;
+   
+   cursor: pointer;
+
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgb(78, 77, 75);
+
+
+}
+
+#numbtn button h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    
+}
